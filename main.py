@@ -34,6 +34,8 @@ list_word = []
 for i in range(len(bright_list)):
     num = round(bright_list[i] / 4)
     list_word.append(ascii_list[num])
+    if i % height == 0:
+        list_word.append('\n')
 print(''.join(list_word))  # split new lines at the width of the image
 
 # A brightness of 0 should map to a delicate backtick (`), and a brightness of 255 should map to big stocky dollar sign ($)
