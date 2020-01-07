@@ -4,7 +4,9 @@ print("Ascii Converter")
 
 os.chdir('C:\\Users\\Eric\\Desktop')
 im = Image.open("pineapple.jpg")
+im.thumbnail((140, 140))
 width, height = im.size
+im = im.rotate(270).transpose(Image.FLIP_LEFT_RIGHT)
 print(str(width) + " x " + str(height))
 
 pixel_matrix = []
