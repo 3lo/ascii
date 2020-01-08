@@ -6,6 +6,7 @@ Requirements:
  
 Need to fix:
  - Scaling
+ - Clean up code
  
 ![Before](https://imgur.com/E0LKhbr.png "Picture")&nbsp;&nbsp;&nbsp;
 ![After](https://imgur.com/TMUMi2N.png "Text")
