@@ -39,8 +39,3 @@ for i in range(len(bright_list)):
     if i % width == 0:
         list_word.append('\n')
 print(''.join(list_word))  # split new lines at the width of the image
-
-# A brightness of 0 should map to a delicate backtick (`), and a brightness of 255 should map to big stocky dollar sign ($)
-'''
-fmt.Print(string("`^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"[uint32(brightness)/4]))
-'''
