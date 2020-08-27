@@ -4,6 +4,7 @@ An "Advanced Beginner" Project from [Robert Heaton](https://robertheaton.com/201
 # Getting Started
 ### Prerequisites
 ```
+Python 3
 PIL (Python Image Library)
 ```
 
