@@ -17,7 +17,10 @@ git clone https://github.com/3lo/ascii.git
 ```
 python3 main.py [directory of image]
 
-Example: python3 main.py C:\Users\Desktop\image.png
+Example: 
+ - python3 main.py
+ - "Enter the picture's directory: " C:\Users\Eric\Desktop\cat.png
+ - "Enter the picture's directory: " /home/eric/Desktop/cat.png
 ```
 
 # License
