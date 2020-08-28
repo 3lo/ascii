@@ -27,5 +27,5 @@ Example:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 
-<img align="left" src="https://imgur.com/E0LKhbr.png">
+<img align="left" src="https://i.imgur.com/E0LKhbrm.png">
 <img align="right" src="https://imgur.com/TMUMi2N.png">
