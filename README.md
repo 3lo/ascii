@@ -15,7 +15,7 @@ git clone https://github.com/3lo/ascii.git
 
 # Usage
 ```
-python3 main.py [directory of image]
+python3 main.py
 
 Example: 
  - python3 main.py
