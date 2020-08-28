@@ -4,8 +4,8 @@ print("Ascii Converter")
 
 directory = input("Enter the picture's directory: ")
 
-os.chdir(directory.rsplit('\\', 1)[0])  # Folder we are currently in Example: C:\Users\Eric\Desktop\thug.png
-im = Image.open(directory.split('\\')[-1])  # Image stored in that folder
+os.chdir(os.path.split(directory)[0])  # Folder we are currently in Example: C:\Users\Eric\Desktop\thug.png
+im = Image.open(os.path.split(directory)[1])  # Image stored in that folder
 
 im.thumbnail((64, 64))  # rescale image to 64x64 pixels
 width, height = im.size  # declaring width and height
