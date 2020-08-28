@@ -5,22 +5,24 @@ An "Advanced Beginner" Project from [Robert Heaton](https://robertheaton.com/201
 ### Prerequisites
 ```
 Python 3
-PIL (Python Image Library)
 ```
 
 ### Installing
 ```
-git https://github.com/3lo/ascii.git
+pip3 install pillow
+git clone https://github.com/3lo/ascii.git
 ```
 
 # Usage
 ```
-Example: 
+python3 main.py [directory of image]
+
+Example: python3 main.py C:\Users\Desktop\image.png
 ```
 
 # License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-![Before](https://imgur.com/E0LKhbr.png "Picture")&nbsp;&nbsp;&nbsp;
-![After](https://imgur.com/TMUMi2N.png "Text")
 
+<img align="left" src="https://imgur.com/E0LKhbr.png">
+<img align="right" src="https://imgur.com/TMUMi2N.png">
